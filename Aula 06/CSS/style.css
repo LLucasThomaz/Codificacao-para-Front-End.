@@ -1,0 +1,56 @@
+body{
+	
+}
+
+.divSuperior{
+	min-height: 500px;
+	background-color: #0070AC;
+	margin-top: 100px;
+	padding-left: 100px;
+}
+.divSuperior h2{
+	background-color: #fff;
+}
+.divCentral{
+	min-height: 500px;
+	background-image: url("../img/foto02.jpg");
+	background-attachment: fixed;
+}
+.divInferior{
+	min-height: 500px;
+}
+
+h1{
+	color: #FFE7BA;
+}
+.container-lista{
+	color: #20ABD8;
+	background-color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	min-height: 100vh;
+	padding: 30px;
+}
+
+.titulo-lista{
+	color: #20ABD8;
+}
+
+.lista{
+	list-style-type: none;
+}
+
+.lista li{
+	margin-top: 15px;
+}
+
+.lista li a{
+	background-color: #20ABD8;
+	color: #000;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.lista li a:hover{
+	background-color: #056AE9;
+	color: #fff;
+}

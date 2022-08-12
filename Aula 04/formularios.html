@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulários</title>
+	<style>
+	form{
+	background-color: black;
+	color: white
+	}
+	</style>
+</head>
+<body>
+	<h1>Formulário de cadastro</h1>
+	<h5>Preencha os campos abaixo</h5>
+
+	<form>
+		<label for="nome">Digite seu nome:</label>
+		<br>
+		<input id="nome" type="text" name="username" required="required">
+		<br>
+		<label for="email">Digite seu email:</label>
+		<br>
+		<input id="email" type="email" name="useremail" required="required">
+		<br>
+		<input type="submit" value="Enviar">
+		
+		<h3> Escolha sua linguagem favorita:</h3>
+		
+		<input type="radio" id="html" value="HTML" name="fav_lang">
+		<label for="html">HTML</label>
+		<br>
+		<input type="radio" id="css" value="CSS" name="fav_lang">
+		<label for="css">CSS</label>
+		<br>
+		<input type="radio" id="javascript" value="JavaScript" name="fav_lang">
+		<label for="javascript">JavaScript</label>
+		
+		<h3> Aceite os termos </h3>
+		
+		<input type="checkbox" id="termo1" name="uso" value="TermosdeUso1">
+		<label for="termo1"> Termos de Uso 1 </label>
+		<br>
+		<input type="checkbox" id="termo1" name="uso2" value="TermosdeUso2">
+		<label for="termo2"> Termos de Uso 2 </label>
+		<br>
+		<input type="checkbox" id="termo1" name="uso3" value="TermosdeUso3">
+		<label for="termo3"> Termos de Uso 3 </label>
+		
+		<h3>Data e hora</h3>
+		<label for="data">Selecione a data:</label>
+		<br>
+		<input type="date" id="data" name="data" value="2022-07-28">
+		<br>
+		<label for="hora">Selecione a hora:</label>
+		<br>
+		<input type="time" id="hora" name="hora" value="22:00">
+		<br>
+		<label for="data-hora">Selecione a data e a hora:</label>
+		<br>
+		<input type="datetime-local" id="data-hora" name="data-hora" value="2022-07-28T22:30">
+		
+	</form>
+</body>
+</html>

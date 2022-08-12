@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+body{
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Lora', serif;
+}
+ul{
+	margin: 0px;
+	padding: 15px;
+	list-style-type: none;
+	background-color: #333;
+}
+li{
+	display: inline;
+}
+
+li img{
+	max-width: 75px;
+	max-height: 25px;
+}
+
+li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px;
+}
+
+li a:hover:not(.active){
+	background-color: #2e8b57;
+}
+
+.active{
+	background-color: #808080;
+}
+
+.menu-login{
+	float: right;
+}
+
+div.conteudo{
+	min-height: 500px;
+	background-color: #111;
+	padding: 10px;
+	color: #fff;
+}
+
+div.conteudo h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 60px;
+	text-shadow: 4px 4px 10px #7A7672;
+	animation:animate 3s linear infinite;
+}
+
+div.conteudo p{
+	margin-left: 100px;
+	margin-right:100px;
+	margin-top: 60px;
+	text-align: justify;
+	text-indent: 75px;
+	letter-spacing: 5px;
+	line-height: 2;
+}
+
+div.conteudo-img{
+	background-image: url('../img/nk.gif');
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+}
+
+div.card{
+	background-color: #fff;
+	border-radius: 40px;
+	background-color: rgba(255, 255, 255, 0.9);
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	min-width: 20%;
+	min-height: 100px;
+}
+
+div.card a{
+	text-decoration: none;
+	color: #000;
+	padding: 12px;
+	background-color: #fff;
+	border: solid 1px #fff;
+	border-radius: 50px;
+}
+
+div.card a:hover{
+	background-color: #78767B;
+	color: white
+	border: solid 1px #2e8b57;
+}
+
+div.card img{
+	margin-top: 20px;
+	margin-left: 80px;
+	border-radius: 40px;
+}
+
+div.card h2{
+	color: #000;
+	text-align: center;
+	letter-spacing: 5px;
+	line-height: 2;
+}
+
+div.card h3{
+	color: #000;
+	text-align: center;
+	letter-spacing: 5px;
+	line-height: 2;
+}
+
+div.card p{
+	margin-left: 0px;
+	margin-right:0px;
+	margin-top: 0px;
+	text-align: center;
+	text-indent: 0px;
+	letter-spacing: 0px;
+	line-height: 0;
+}
+
+footer.rodape{
+	margin: 0px;
+	padding: 2px;
+	list-style-type: none;
+	background-color: #333;
+}
+
+div.roda1{
+	text-decoration: none;
+	color: #fff;
+	padding: 0px;
+	display: flex; 
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+div.roda1 h3{
+	margin-right: 20px;
+}
+
+div.roda1 h3 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+div.roda2{
+	text-decoration: none;
+	color: #fff;
+	padding: 0px;
+	width: 10%;
+	margin-left: 150px;
+}
+
+
+@keyFrames animate{
+	0%{
+		opacity: 0.1;
+	}
+	50%{
+		opacity: 0.8;
+	}
+	100%{
+		opacity: 0.1;
+	}
+}

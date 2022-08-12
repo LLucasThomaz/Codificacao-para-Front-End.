@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('../img/foto.jfif');
+	background-size: cover;
+}
+
+nav{
+	padding-left: 10vw;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	height: 7vh;
+	background-color: #783c00;
+}
+
+nav input{
+	width: 30vw;
+	margin-top: 1.5vh;
+	padding-top: 1vh;
+	padding-left: 4vw;
+	padding-right: 10vw;
+	padding-bottom: 1vh;
+	border-radius: 25px;
+	background-color: #fff4f0;
+	color: #783c00;
+	font-weight: 700;
+}
+
+#lupa{
+	position: fixed;
+	margin-top: 2.6vh;
+	margin-left: 1.5vw;
+}
+
+nav img{
+	float: right;
+	margin-top: 1.3vh;
+	margin-right: 2vw;
+}
+
+nav span{
+	color: white;
+	text-transform: uppercase;
+	float: right;
+	margin-top: 2.1vh;
+	margin-right: 1.5vw;
+}
+
+#headphone{
+	float: right;
+	color: white;
+	margin-top: 2vh;
+	margin-right: 2vw;
+}
+
+section.info{
+	display: flex;
+	margin-top: 0.5vh;
+	border-top: solid 4px #783c00;
+	border-bottom: solid 10px #783c00;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	justify-content: space-around;
+}
+
+section.info div.endereco{
+	display: flex;
+	max-width: 32vw;
+	min-width: 32vw;
+}
+
+section.info div.endereco p{
+	color: #783c00;
+	text-align: center;
+}
+
+section.info div.texto-endereco{
+	padding-top: 7vh;
+	padding-bottom: 1vh;
+	text-align: center;
+}
+
+section.info div.texto-endereco p{
+	margin-top: -15px;
+}
+
+section.info div.barra-lateral{
+	width: 0.3vw;
+	background-color: #783c00;
+	border-radius: 5px;
+	transform: rotate(15deg);
+}
+
+section.info div.contatos{
+	display: flex;
+	max-width: 32vw;
+	min-width: 32vw;
+}
+
+section.info div.contatos h1{
+	margin-top: 20px;
+	color: #783c00;
+	font-size: 20px;
+	text-align: center;
+	width: 30vw;
+}
+
+section.info div.contatos p{
+	color: #783c00;
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+section.info div.redes-sociais{
+	display: flex;
+	max-width: 32vw;
+	min-width: 32vw;
+	justify-content: space-between;
+}
+
+section.info div.texto-rs{
+	color: #783c00;
+	text-align: center;
+	font-size: 20px;
+}
+
+.img-what{
+	margin-right: 1vw;
+	padding-top: 2vh;
+	padding-bottom: 1vh;
+}
+
+.img-ins{
+	margin-right: 1vw;
+	padding-top: 2vh;
+	padding-bottom: 1vh;
+}
+
+.img-fb{
+	margin-right: 1vw;
+	padding-top: 2vh;
+	padding-bottom: 1vh;
+}
+
+section.menu{
+	display: flex;
+	justify-content: space-between;
+	padding: 1vh 3vw;
+	border-bottom: solid 10px #783c00;
+	border-top: solid 10px #783c00;
+	background-color: rgba(255, 128, 0, 0.3);
+}
+
+section.menu div.barra-lateral{
+	width: 0.3vw;
+	background-color: #783c00;
+	border-radius: 5px;
+	transform: rotate(15deg);
+}
+
+section.menu div.icone-menu{
+	text-align: center;
+}
+
+section.menu div.item-menu i{
+	font-size: 40px;
+	color: #783c00;
+	text-align: center;
+	transform: rotate(-30deg);
+}
+
+section.menu div.texto-menu p{
+	font-size: 20px;
+	font-weight: 700;
+	color: #783c00;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+section.menu div.item-menu:hover{
+	background-color: #783c00;
+	cursor: pointer;
+}
+
+section.menu div.item-menu:hover p{
+	color: white;
+}
+
+section.menu div.item-menu:hover i{
+	color: white;
+}
+
+div.texto-main{
+	font-family: 'Kanit', sans-serif;
+	font-size: 30px;
+	color: balck;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+div.texto-main p{
+	margin: 0px;
+	letter-spacing: 12px;
+}
+
+.img-main{
+	width: 1920px;
+	height: 400px;
+	border-bottom: solid 5px #783c00;
+	border-top: solid 5px #783c00;
+}
