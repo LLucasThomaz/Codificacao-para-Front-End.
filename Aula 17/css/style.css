@@ -1,0 +1,25 @@
+body{
+	background-color: #182644;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+h1#titulo-lista{
+	color: #fff;
+}
+
+div#div-lista{
+	min-height: 50vh;
+	background-color: rgb(245, 245, 245);
+	margin-left: 10vw;
+	margin-right: 10vw;
+	border: solid 1px #94d8ff;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#lista{
+	text-align: justify;
+}
