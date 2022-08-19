@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aprendendo JavaScript</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="pedido">
+		<input type="text" id="numero-prato">
+		<button onclick="adicionarPrato()">Adicionar</button>
+	</div>
+	<div class="cardapio" id="cardapio">
+		<ul>
+			<li> 1 - Arroz - R$ 10,00</li>
+			<li> 2 - Feijão - R$ 10,00</li>
+			<li> 3 -  Batata - R$ 8,00</li>
+			<li> 4 - Carne - R$ 15,00</li>
+		</ul>
+	</div>
+	<div class="total">
+		<p>O total é R$ <span id="total">0,00</span>
+	</div>
+	
+	<script src="js/script.js"></script>
+</body>
+</html>

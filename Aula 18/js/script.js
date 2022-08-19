@@ -103,7 +103,7 @@ function modoNoturno(){
 		botao.style.color = "black";
 		botao.innerHTML = "Ativar modo diurno";
 		
-		goku.setAttribute('src', 'img/gk2.png')
+		goku.setAttribute('src', 'img/gk05.png')
 		
 	}else{
 		
