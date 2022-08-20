@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #b8d3ff;
+}
+
+.formulario{
+	
+}
+
+.formula{
+	border-radius: 25px;
+	border: 2px solid #006c95;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+}
+
+.botao{
+	text-align: center;
+}
