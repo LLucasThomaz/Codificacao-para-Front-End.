@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+	background-color: black;
+	padding-right: 10vw;
+	padding-left: 10vw;
+}
+
+#conteiner-menu{
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	border-bottom: solid 6px #FDBD18;
+	justify-content: space-beween;
+}
+
+#img-menu{
+	margin-top: 4vh;
+	margin-left: 10vw;
+	min-width: 15vw;
+}
+
+#pacha-menu{
+	font-family: 'Poppins', sans-serif;
+	color: #efedf5;
+	margin: 0;
+	padding: 0;
+	display:flex;
+	text-align: center;
+	justify-content: center;
+	min-width: 40vw;
+}
+
+#home-menu{
+	margin-top: 12vh;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+#home-menu a{
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s ease-in;
+}
+
+#qs-menu{
+	margin-top: 12vh;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+#qs-menu a{
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s ease-in;
+}
+
+#produtos-menu{
+	margin-top: 12vh;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+#produtos-menu a {
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s ease-in;
+}
+
+#unidade-menu{
+	margin-top: 12vh;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+#unidade-menu a{
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s ease-in;
+}
+
+#fc-menu{
+	margin-top: 12vh;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+#fc-menu a{
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s ease-in;
+}
+
+#icons-menu{
+	display: flex;
+	margin-top: 12vh;
+	padding: 0;
+	padding-top: 8px;
+	max-height: 35px;
+}
+
+#fb-menu{
+	margin-left: 1vw;
+	margin-right: 1vw;
+	background-color: #FDBD18;
+}
+
+#ig-menu{
+	margin-left: 1vw;
+	margin-right: 6.9vw;
+	background-color: #FDBD18;
+}
+
+#cabecalho-menu-meio{
+	text-align: center;
+}
+
+#gif-cmm{
+	margin-top: 20vh;
+	margin-bottom: 5vh;
+	width: 500px;
+}
+
+#meio{
+	text-align: center;
+	color: #FDBD18;
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	justify-content: space-beween;
+	border-top: solid 6px #FDBD18;
+	border-bottom: solid 6px #FDBD18;
+}
+
+#produto-meio{
+	background-color: #FDBD18;
+	font-family: 'Poppins', sans-serif;
+}
+
+.coffee-foto-meio{
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 10vw;
+}
+
+#coffee-meio{
+	display: flex;
+	border-bottom: solid 30px black;
+}
+
+.texto-h2-meio{
+	text-align: center;
+	width: 90vw;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+}
+
+.grao-foto-meio{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+#grao-meio{
+	display: flex;
+	border-bottom: solid 30px black;
+}
+
+.torrada-foto-meio{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+#torrada-meio{
+	display: flex;
+	border-bottom: solid 30px black;
+}
+
+.botao-botao-meio{
+	border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+	background-color: black;
+	color: #FDBD18;
+}
+
+.botao-botao-meio:hover{
+	border: solid 1px black;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+	background-color: #FDBD18;
+	color: black;
+	font-weight: 500;
+}
+
+#unidade-roda-pe{
+	text-align: center;
+}
+
+.card-roda-pe{
+	border: solid 1px black;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+	background-color: #FDBD18;
+	color: black;
+	font-weight: 500;
+	width: 21vw;
+	margin: 0 auto;
+}
+
+#fim-roda-pe{
+	background-color: #FDBD18;
+	color: black;
+	padding: 0;
+	margin: 0;
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px){
+	body{
+		background-color: black;
+		padding-right: 0.2vw;
+		padding-left: 0.2vw;
+	}
+	
+	#conteiner-menu{
+		position: fixed;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		border-bottom: solid 6px #FDBD18;
+		justify-content: space-beween;
+	}
+
+	#img-menu{
+		margin-top: 2vh;
+		margin-left: 5vw;
+		min-width: 5vw;
+	}
+
+	#pacha-menu{
+		font-family: 'Poppins', sans-serif;
+		color: #efedf5;
+		margin: 0;
+		padding: 0;
+		display:flex;
+		text-align: center;
+		justify-content: center;
+		min-width: 10vw;
+	}
+	
+	#home-menu{
+		margin-top: 6vh;
+		margin-left: 1vw;
+		margin-right: 1vw;
+	}
+	
+	#home-menu a{
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s ease-in;
+	}
+	
+	#qs-menu{
+		margin-top: 6vh;
+		margin-left: 1vw;
+		margin-right: 1vw;
+	}
+	
+	#qs-menu a{
+		text-decoration: none;
+		color: #fff;
+		transition: 0.5s ease-in;
+	}
+	
+	#produtos-menu{
+		margin-top: 6vh;
+		margin-left: 1vw;
+		margin-right: 1vw;
+	}
+
+	#produtos-menu a {
+		text-decoration: none;
+		color: #fff;
+		transition: 0.5s ease-in;
+	}
+	
+	#unidade-menu{
+		display: none;
+		margin-top: 6vh;
+		margin-left: 1vw;
+		margin-right: 1vw;
+	}
+
+	#unidade-menu a{
+		text-decoration: none;
+		color: #fff;
+		transition: 0.5s ease-in;
+	}
+
+	#fc-menu{
+		display: none;
+		margin-top: 6vh;
+		margin-left: 1vw;
+		margin-right: 1vw;
+	}
+
+	#fc-menu a{
+		text-decoration: none;
+		color: #fff;
+		transition: 0.5s ease-in;
+	}
+	
+	#icons-menu{
+		display: flex;
+		margin-top: 6vh;
+		padding: 0;
+		padding-top: 4px;
+		max-height: 10px;
+	}
+
+	#fb-menu{
+		display: none;
+		margin-left: 0.5vw;
+		margin-right: 0.5vw;
+		background-color: #FDBD18;
+	}
+
+	#ig-menu{
+		display: none;
+		margin-left: 0.5vw;
+		margin-right: 0.5vw;
+		background-color: #FDBD18;
+	}
+	
+	#gif-cmm{
+		max-width: 150vw;
+	}
+	
+	#meio{
+		text-align: center;
+		color: #FDBD18;
+		font-family: 'Poppins', sans-serif;
+		font-size: 15px;
+		justify-content: space-beween;
+		border-top: solid 6px #FDBD18;
+		border-bottom: solid 6px #FDBD18;
+	}
+	
+	#produto-meio{
+		background-color: #FDBD18;
+		font-family: 'Poppins', sans-serif;
+	}
+
+	.coffee-foto-meio{
+		margin-top: 2px;
+		margin-left: 4px;
+		width: 2vw;
+	}
+
+	#coffee-meio{
+		display: flex;
+		border-bottom: solid 15px black;
+	}
+
+	.texto-h2-meio{
+		text-align: center;
+		width: 20vw;
+		margin-top: 1vh;
+		margin-bottom: 1vh;
+	}
+	
+	.grao-foto-meio{
+	margin-top: 5px;
+	margin-left: 8px;
+	}
+
+	#grao-meio{
+		display: flex;
+		border-bottom: solid 30px black;
+	}
+
+	.torrada-foto-meio{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+
+	#torrada-meio{
+		display: flex;
+		border-bottom: solid 30px black;
+	}
+
+	.botao-botao-meio{
+		border: none;
+		padding: 5px;
+		text-decoration: none;
+		cursor: pointer;
+		transition: background .3s;
+		border-radius: 5px;
+		background-color: black;
+		color: #FDBD18;
+	}
+
+	.botao-botao-meio:hover{
+		border: solid 1px black;
+		padding: 5px;
+		text-decoration: none;
+		cursor: pointer;
+		transition: background .3s;
+		border-radius: 5px;
+		background-color: #FDBD18;
+		color: black;
+		font-weight: 500;
+	}
+
+	#unidade-roda-pe{
+		text-align: center;
+	}
+
+	.card-roda-pe{
+		display: none;
+		border: solid 1px black;
+		padding: 5px;
+		text-decoration: none;
+		cursor: pointer;
+		transition: background .3s;
+		border-radius: 5px;
+		background-color: #FDBD18;
+		color: black;
+		font-weight: 500;
+		width: 11vw;
+		margin: 0 auto;
+	}
+
+	#fim-roda-pe{
+		background-color: #FDBD18;
+		color: black;
+		padding: 0;
+		margin: 0;
+	}
+	
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+:target{
+	scroll-margin-top: .8em;
+}
