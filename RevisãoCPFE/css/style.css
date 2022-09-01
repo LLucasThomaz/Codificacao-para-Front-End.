@@ -1,0 +1,26 @@
+*{
+	width: 100%
+}
+
+body{
+	background-color: gray;
+}
+
+.inpput{
+	height: 30px;
+	width: 300px;
+	border-color: #000;
+	border-radius: 7px;
+}
+
+.buttoon{
+	background: #afaeb6;
+	color: black;
+	border-radius: 10px;
+	border-style: outset;
+	border-color: #000;
+	height: 40px;
+	width: 90px;
+	font: bold 15px arial, sans-serif;
+	text-shadow:none;
+}

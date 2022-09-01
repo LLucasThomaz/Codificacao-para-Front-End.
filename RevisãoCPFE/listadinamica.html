@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista dinâmica</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+		<h1>Lista dinâmica</h1>
+	</div>
+	
+	<div>
+		<p><b>Insira um novo item:</b></p>
+	</div>
+	
+	<input class="inpput" id="inputt" type="text">
+	
+	<button class="buttoon" onclick="adicionarItem()">Adicionar</button>
+	
+	<ul class="lista" id="fruta">
+		
+	</ul>
+	
+	<script>
+		function adicionarItem(){
+			let valor = document.getElementById("inputt").value;
+		/*console.log(valor) é a função para aparecer no console do navegador
+			console.log(valor)*/
+			let fruta = document.getElementById("fruta");
+		
+			if(valor == "" || valor.length <3){
+				alert("O campo está vaziu")
+			}else{
+				fruta.innerHTML += "<li>"+valor+"</li>"
+				document.getElementById("inputt").value = "";
+			}
+		}
+		
+	</script>
+</body>
+</html>
