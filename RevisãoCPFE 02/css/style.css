@@ -1,0 +1,33 @@
+body{
+	background-color: #120907;
+	color: #ffd21d;
+	text-align: center;
+}
+
+.button-paly-pause{
+	border: 30px solid transparent;
+	font-size: 40px;
+}
+
+.button-play{
+	background-color: #120907;
+	color: #ffd21d;
+	text-align: center;
+}
+
+.button-pause{
+	background-color: #120907;
+	color: #ffd21d;
+	text-align: center;
+	
+}
+
+.button-play:hover{
+	background-color: #ffd21d;
+	color: #120907;
+}
+
+.button-pause:hover{
+	background-color: #ffd21d;
+	color: #120907;
+}

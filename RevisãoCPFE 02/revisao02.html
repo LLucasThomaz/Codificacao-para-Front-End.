@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Revisão 02</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/178aa618ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<h1>Revisão 02</h1>
+	<video class="video" id="videodk" width="500" height="400">
+		<source src="video/Drake ft. 21 Savage.mp4" type="video/mp4">
+	</video>
+	
+	<div class="button-play-pause" id="button-play-pause">
+		<button class="button-play" onclick="buttonplay()">Play <i class="fa-solid fa-play"></i></button>
+		<button class="button-pause" onclick="buttonpause()">Pause <i class="fa-solid fa-pause"></i></button>
+	</div>
+	
+	<script>
+		function buttonplay(){
+			let vai = document.getElementById("videodk");
+				
+				vai.play();
+		}
+		
+		function buttonpause(){
+			let pare = document.getElementById("videodk");
+			
+				pare.pause();
+		}
+	</script>
+</body>
+<html>
